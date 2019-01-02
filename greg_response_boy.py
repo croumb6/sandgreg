@@ -2,7 +2,7 @@ import time
 import random
 from slackclient import SlackClient
 
-token = "xoxb-341846637154-UUgcMU2QMRkPa5bDCHYsKcvC"
+token = "fill in"
 sc = SlackClient(token)
 
 img_urls = {'kd': 'http://i.imgur.com/1zABkKu.jpg',
