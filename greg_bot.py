@@ -2,10 +2,6 @@ import time
 import random
 from slackclient import SlackClient
 
-#token = "xoxp-56736860833-56736860881-56726044192-a32f372d44"# found at https://api.slack.com/web#authentication
-##token = "xoxb-341846637154-UUgcMU2QMRkPa5bDCHYsKcvC"
-#token = "xoxb-341846637154-GSUp1zUQ1tWVZ1v3bzxN5Hni"
-#token = "xoxp-341969025893-341136014432-341299356833-d4c647cc1ab923f34819197b35de730e"
 token = "xoxb-341846637154-GSUp1zUQ1tWVZ1v3bzxN5Hni"
 sc = SlackClient(token)
 
