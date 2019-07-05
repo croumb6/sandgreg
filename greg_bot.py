@@ -3,7 +3,10 @@ import random
 from slackclient import SlackClient
 
 #token = "xoxp-56736860833-56736860881-56726044192-a32f372d44"# found at https://api.slack.com/web#authentication
-token = "xoxb-341846637154-UUgcMU2QMRkPa5bDCHYsKcvC"
+##token = "xoxb-341846637154-UUgcMU2QMRkPa5bDCHYsKcvC"
+#token = "xoxb-341846637154-GSUp1zUQ1tWVZ1v3bzxN5Hni"
+#token = "xoxp-341969025893-341136014432-341299356833-d4c647cc1ab923f34819197b35de730e"
+token = "xoxb-341846637154-GSUp1zUQ1tWVZ1v3bzxN5Hni"
 sc = SlackClient(token)
 
 img_urls = {'kd': 'http://i.imgur.com/1zABkKu.jpg',
@@ -68,10 +71,10 @@ greg_sayings = [#"I'm the WURST! " + img_urls['jersey'],
                 "Was this a jokic flex @Pow?",
                 "Anyone know how to snooze the chat?",
                 "Guess it's gonna be another one of those days huh Mo",
-                "Leaving this channel if anymore gbbs spoilers",
-                "Crouse, Mo, Eric... just reviewing my naughty list for Christmas",
-                "Dirk, you in the holiday spirit yet?",
-                "you get me a gift yet Eric?",
+                #"Leaving this channel if anymore gbbs spoilers",
+                #"Crouse, Mo, Eric... just reviewing my naughty list for Christmas",
+                #"Dirk, you in the holiday spirit yet?",
+                #"you get me a gift yet Eric?",
                 "Eric wake up",
                 "Crushed cheeseburgers both days then was never the same",
 ]

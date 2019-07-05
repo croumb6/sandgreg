@@ -2,7 +2,7 @@ import time
 import random
 from slackclient import SlackClient
 
-token = "xoxb-341846637154-UUgcMU2QMRkPa5bDCHYsKcvC"
+token = "xoxp-341969025893-341136014432-514738251683-1e20eff24ee07524159ec4c10b486bc8"
 sc = SlackClient(token)
 
 

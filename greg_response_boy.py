@@ -2,7 +2,9 @@ import time
 import random
 from slackclient import SlackClient
 
-token = "xoxb-341846637154-UUgcMU2QMRkPa5bDCHYsKcvC"
+#token = "xoxb-341846637154-UUgcMU2QMRkPa5bDCHYsKcvC"
+#token = "xoxp-341969025893-341136014432-514738251683-1e20eff24ee07524159ec4c10b486bc8"
+token = "xoxb-341846637154-GSUp1zUQ1tWVZ1v3bzxN5Hni"
 sc = SlackClient(token)
 
 img_urls = {'kd': 'http://i.imgur.com/1zABkKu.jpg',
@@ -61,39 +63,42 @@ greg_responses = [#"You know what, %s? There's a jet stream of bullshit coming o
                 #"https://media.giphy.com/media/3oEduKw6b2PEA4KH6g/giphy.gif",
                 #"https://media.giphy.com/media/UB2plibLoLkME/giphy.gif",
                 #":smiley::cookie:",
-                ":kissing::wine_glass:",
-                ":angry::raised_hand_with_fingers_splayed::skin-tone-2::basketball:",
+                #":kissing::wine_glass:",
+                #":angry::raised_hand_with_fingers_splayed::skin-tone-2::basketball:",
                 "Cigs taste better I think",
                 #"Ollie's are the easiest trick, tough to be legendary. %s get real", 
-                "I'm team koc",
+                #"I'm team koc",
                 "don't listen to this :point_up::skin-tone-2:", 
                 "was this a jokic flex @Pow?",
                 #"http://gph.is/1RQAYNI",
                 #"http://gph.is/194ML2c", 
                 "%s, find a new slant",
                 "Vantine, the hawks are fucking terrible.", 
-                "Anyone know how to snooze the chat?",
-                "Are you kidding me??",
+                #"Anyone know how to snooze the chat?",
+                #"Are you kidding me??",
                 "did that feel good, %s", 
                 "guys, live a little",
                 #"https://media0.giphy.com/media/u4leCTZfHAmxW/giphy-downsized.gif?cid=6104955e5bf03fbb31715641670d2ae8",
                 "I'm not that frustrated by it",
-                "Leaving this channel if anymore gbbs spoilers",
-                "https://giphy.com/gifs/santa-bad-QIpSB9yTqCjWo",
+                #"Leaving this channel if anymore gbbs spoilers",
+                #"https://giphy.com/gifs/santa-bad-QIpSB9yTqCjWo",
                 "getting chilly in here",
-                "*sips eggnog*, *spits out eggnog*",
+                #"*sips eggnog*, *spits out eggnog*",
                 "spoken like a true Sand %s",
                 ":hammer: GREG SMASH",
-                "Go eat a salad at Oracle and leave regular people alone ESPN"
+                "Go eat a salad at Oracle and leave regular people alone ESPN",
                 "Narc ass article",
                 #"merry fucking chuckmas",
                 "today's Tommy points go to.... %s!",
-                "https://giphy.com/gifs/test-jess-home-video-curb-your-enthusiasm-SkOHoAarPEoHC",
-                
-                
-
+                #"https://giphy.com/gifs/test-jess-home-video-curb-your-enthusiasm-SkOHoAarPEoHC",
+                "new year new greg",
+                "Brad Stevens just didn't understand him ok",
+                "just sipping on some white wine :wink:",
+                "One fish two fish three fish Chuck, four fish five fish six fish BUCK",
+                "I thought we had a deal, dirk",
+                "Once I Greg I'm never going back",
+                "eric.....Eric........ERIC",
 ]
-
 
 def sendGregism(chan):
     text_idx = random.randint(0,len(greg_sayings)-1)
